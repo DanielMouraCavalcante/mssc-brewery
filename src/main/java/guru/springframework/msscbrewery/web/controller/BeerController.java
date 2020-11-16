@@ -16,7 +16,7 @@ import java.util.UUID;
 @Deprecated
 @RequestMapping("/api/v1/beer")
 @RestController
-public class BeerController {
+public class BeerController { 
 
     private final BeerService beerService;
 
